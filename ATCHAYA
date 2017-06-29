@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+clrscr();
+printf("\n enter the number");
+scanf("%d",&a);
+if(a%2==0)
+printf("\n enter the number is odd);
+else 
+printf("\n enter the number is even");
+getch();
+}
